@@ -17,7 +17,7 @@ h3 {
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 27px;
+    font-size: 20px;
     color: #c3cede;;
     margin: 5px;
     text-align: center;
@@ -112,8 +112,8 @@ li {
 
 .GameImage {
 
-    width: 455px;
-    height: 350px;
+    width: 355px;
+    height: 250px;
     border: 4.5px solid #b8b8b8;
     border-radius: 10px;
     margin: 5px;
@@ -132,6 +132,43 @@ li {
 
 }
 
+
+
 .CreditLine {
     background-image: url("LastImg.png");
+}
+
+table {
+    border: 5.99px solid #b8b8b8;
+    border-radius: 10px;
+    font-size: 35px;
+    overflow: hidden;
+    
+
+}
+
+th{
+    border: 3px solid #b8b8b8;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 0px;
+    color: #b3d0ff;;
+    text-align: center;
+    position: relative;
+}
+
+td{
+    border: 3px solid #b8b8b8;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 0px;
+    color: #b8b8b8;
+    text-align: center;
+    position: relative;
+}
+
+.PaymentTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
