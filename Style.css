@@ -125,6 +125,7 @@ li {
     border: 4.5px solid #b8b8b8;
     border-radius: 10px;
     margin: 5px;
+    border: 0px;
 }
 .GameOne {
     border: 4.5px solid #b8b8b8;
@@ -133,6 +134,7 @@ li {
     margin-left: 8px;
     margin-top: 8px;
     margin-bottom: 8px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
 }
 
 .WorkedOn {
@@ -150,12 +152,11 @@ li {
 }
 
 table {
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
     border: 5.99px solid #b8b8b8;
     border-radius: 10px;
     font-size: 35px;
     overflow: hidden;
-    
-
 }
 
 th{

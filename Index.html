@@ -8,10 +8,10 @@
     <title>Kiku's portfolio</title>
 </head>
 <body>
+
     <div class="Start">
         
         <img class="MainImage" src="Back.png" alt="Image">
-        
 
     </div>
     <h1>Skills</h1>
@@ -97,23 +97,23 @@
             </tr>
             <tr>
                 <td>None</td>
-                <td>Free</td>
+                <td>{{PrizeLowest}}</td>
                 <td>Building</td>
             </tr>
             <tr>
                 <td>Low</td>
-                <td>5+</td>
-                <td>Building, Scripting*</td>
+                <td>{{PrizeLow}}</td>
+                <td>Building</td>
             </tr>
             <tr>
                 <td>Medium</td>
-                <td>50+</td>
+                <td>{{PrizeMedium}}</td>
                 <td>Building, Scripting</td>
             </tr>
             <tr>
                 <td>High</td>
-                <td>100+</td>
-                <td>Building, Scripting, Composing</td>
+                <td>{{PrizeHigh}}</td>
+                <td>{{PrizeHighJobs}}</td>
             </tr>
         </table>
     </div>
@@ -135,8 +135,8 @@
         <h1>Note</h1>
         <p>If you want to hire me, message me on roblox or friend me</p>
         <p>(to message me you need to follow my account)</p>
-        <p><span>IF YOU WILL NOT OFFER PAYMENT FOR MY WORK (DO WORK FOR FREE), I WILL ONLY BUILD (WORSE THAN USUAL) AND I WILL WORK ONLY ONCE.</span></p>
-        <p><span>IF YOU DECIDE TO PAY ME, THEN I WILL START WORKING MORE PROFESSIONALLY.</span></p>
+        <p>IF YOU WILL NOT OFFER PAYMENT FOR MY WORK (DO WORK FOR FREE), I WILL ONLY BUILD (WORSE THAN USUAL) AND I WILL WORK ONLY ONCE.</p>
+        <p>IF YOU DECIDE TO PAY ME, THEN I WILL START WORKING MORE PROFESSIONALLY.</p>
         <p>For more comfortable working check if you have <a href="https://discord.com/" target="_blank">Discord</a></p>
         <p>Make sure you have a server/chat to talk and devolop the game</p>
         <p>Notice: if you will be extremely rude to your workers/me, i will quit</p> 
@@ -144,7 +144,7 @@
         <p>I can make workplans for your dev team</p>
         <p>MAKE SURE YOU HAVE A TESTING PLACE FOR THE GAME</p>
         <p>I MOSTLY WORK FOR PAYMENT AND SOMETIMES FOR FREE</p>
-        <p>5R - Minium payment; 50R - Medium payment; 100R+ - High payment</p>
+        <p>{{PrizeLow}} - Minium payment; {{PrizeMedium}} - Medium payment; {{PrizeHigh}} - High payment</p>
         <p>Notice: for ideas you/i need to host dev conferences</p>
         <p>If you need a website for the game, ask me</p>
         <p>If you have a Roblox dev group, please give me the "scripter" or "builder" or "music composer" role</p>
@@ -154,5 +154,7 @@
     </div>
 
     <link rel="stylesheet" href="Style.css">
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="Main.js"></script>
 </body>
 </html>
