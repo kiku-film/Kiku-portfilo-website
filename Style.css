@@ -1,3 +1,7 @@
+* {
+    transition: all .9s;
+}
+
 body {
     background-image: url("Back2.png");
 }
@@ -25,7 +29,7 @@ h4 {
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 20px; /* Try 25px */
     color: #c3cede;;
     margin: 5px;
     text-align: center;
@@ -37,6 +41,7 @@ p {
     font-size: 20px;
     text-align: center;
     line-height: 10px;
+    /*font-weight: bold;*/
 }
 span {
 
@@ -97,6 +102,7 @@ h1 {
 */
 a {
     text-decoration: none;
+    transition: all 0.9s;
     color: #c2c2c2ce;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 70px;
